@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <input id="itemField"></input>
+    <p>
+        <ul>
+            <span id="list"></span>
+        </ul>
+    </p>
+
+    <script>
+        function keyPressHandler(e) {
+            if (e.keyCode == 13) {
+                $('#list').append('<li>' + $('#itemField').val() + '</li>');
+                $('#itemField').val('');
+            }
+        }
+
+        $('#itemField').keyup(keyPressHandler);
+
+    </script>
+
+
+</body>
+</html>

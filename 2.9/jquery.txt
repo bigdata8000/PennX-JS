@@ -1,0 +1,28 @@
+npm install jquery
+
+
+$("*")      selects all elements
+$(this)     selects the current element
+$("div")    selects the <div> elements
+
+$(".title") selects all elements with class="title"
+
+
+//------------------------------------------------------
+
+$(selector).action(arguments...)
+
+eg:
+
+$("#name").html("Hello");
+$("#name").append(" world!");
+$("#name").addClass("greeting");
+$("#name").hide();
+$("#name").show();
+
+
+//------------------------------------------------------
+
+
+$(selector).event(callback)
+

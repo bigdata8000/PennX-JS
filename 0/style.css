@@ -1,0 +1,31 @@
+.odd {
+    color: green;
+}
+
+.even {
+    color: blue;
+}
+
+ol {
+    color: red;
+}
+
+ul {
+    color:orange;
+}
+
+table, th, td, tr {
+    border-color: lightgreen;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 15px;
+}
+
+th {
+    background-color: lightgrey;
+    color: black;
+}
+
+.test.one {
+    color: red;   
+}
